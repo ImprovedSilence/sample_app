@@ -13,3 +13,9 @@
 # Ignore all logfiles and tempfiles.
 /log/*.log
 /tmp
+
+#adding other annoying shit
+.DS_Store
+*.swp
+*~
+
