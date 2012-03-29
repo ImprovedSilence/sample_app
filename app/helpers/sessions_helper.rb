@@ -15,14 +15,14 @@ module SessionsHelper
 	end
 
 	def current_user=(user)
-		@current_user=user
+		@current_user = user
 	end
 
 	def current_user
 		@current_user ||= user_from_remember_token
 	end
 
-	def current_user?
+	def current_user?(user)
 		user == current_user
 	end
 
